@@ -1,0 +1,299 @@
+*{box-sizing:border-box;}
+  :root{
+  --color1:#D89584;
+  --color2:#F4F4F4;}
+
+body {
+  margin:0;
+  font-family: Arial;
+  line-height: 1.5;}
+
+  iframe {
+  width:100%;
+  border:none;
+  height:350px;}
+
+div.cover {
+background: url(cover.jpg) no-repeat center/cover;
+height: 250px;
+position: relative;}
+
+h1 {
+color : white;
+text-align: center;
+font-size:42px;
+margin-top:10px;
+margin-bottom:5px;}
+
+
+div.cover p {
+color : white;
+text-align: center;
+font-size:14px;}
+
+div.cover-contact {
+position: absolute;
+top: 30px;
+left:10px;
+border-left:4px solid var(--color1);
+padding-left: 8px;
+text-align:center;}
+
+div.cover-contact p {
+text-align: left;
+margin-top:0px;
+margin-bottom:0px;}
+
+div.cover-contact p:first-child {
+margin-bottom:10px;}
+
+
+div.cover-contact * {
+color: white;
+font-size: 14px;}
+
+div.contact-but{
+position:absolute;
+bottom :10px;
+width :100% ;
+}
+
+a.contact-button{
+color:var(--color1);
+border:3px solid var(--color1);
+padding:8px 20px;
+text-decoration:none;
+background-color:#00000040;
+display:inline-block;
+margin-top:15px;
+font-size:14px;}
+
+
+a.contact-button-aero {
+    position: absolute;
+    right: 20px;
+    top:5px;}
+
+a.contact-button:hover {
+color:white;
+border:3px solid white;}
+
+div.section-grise1 {
+background:url(triangle2white.svg) no-repeat center bottom -1px/100%;
+background-color:var(--color2);
+padding-bottom:75px;}
+
+div.section-grise2 {
+background:url(triangle1white.svg) no-repeat top center/100%;
+background-color:var(--color2);
+padding-top:80px;}
+
+.section{
+padding-left:40px;
+padding-right:40px;
+padding-top:30px;
+padding-bottom:30px;
+overflow: auto;}
+
+h2 {
+text-align: center;
+font-size:34;}
+
+div.separateur{
+background-color:#979797;
+width:150px;
+height:1px;
+margin-left: auto;
+margin-right: auto;}
+
+div.section-grise1 p{
+text-align: center;
+color:#656565;
+max-width: 450px;
+font-size:22px;
+margin-left:auto;
+margin-right:auto;
+line-height:1.5}
+
+div.col-contenu {
+    width: 60%;
+    padding-left: 16px;}
+img.col-contenu {
+    width:40%;}
+
+.float-right{
+float:right}
+
+div.texte-avec-ligne-verticale{
+padding-left:8px;
+border-left:3px solid var(--color1);
+height:50px;
+display: inline-block;}
+
+div.texte-avec-ligne-verticale p {
+margin-top:0px;}
+
+div.barre-verticale{
+height:50px;
+width:4px;
+margin-right:4px;
+background-color: var(--color1)}
+
+.col-aero{
+width:49%;}
+
+div.frame{
+padding:20px 30px;
+margin:30px 50px;
+background-color:white;
+box-shadow:0px 0px 8px 8px rgba(0,0,0,0.1);}
+
+
+p.frame-title{
+text-align:center;
+font-size:30px;
+margin-bottom:20px;}
+
+div.frame img {
+    width: 100px;}
+
+
+table.activites p.numero_item {
+background-color : #6C829DC0 ;
+color : white ;
+width :25px ;
+height :25px;
+text-align : center;
+font-size :14px ;
+font-weght : bold ;
+padding top :10px ;
+box-sizing : box-border ;
+border-radius : 50% ;
+margin:0px; }
+
+table.activites td {
+vertical-align : center ;}
+
+table.activites td.nom_item {
+font-size : 18px ;
+padding-left : 10px ;
+padding-bottom : 4px ;}
+
+/*PORTFOLIO*/
+.aero-header{
+height: 90px;
+background:url(header.jpg) no-repeat center/cover;}
+
+.aero-header-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+
+h1.aero   {
+    font-size:46px;
+    color: black;
+    line-height:1;
+    padding-top:10px;}
+
+h2.aero {
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0;}
+
+a.aero-back {
+    color: var(--color1);
+    margin-left: -10px;}
+
+img.aero {
+    width: 50%;
+    max-width: 475px;}
+
+.display-mobile {
+    display: none;}
+
+/* RESPONSIVE DESIGN : MOBILE */
+@media only screen and (max-width: 767px) {
+    img.cover-profile {
+        height: 90px;
+        margin-top: 75px;}
+
+    h1 {
+        font-size: 38px;
+        margin-top: 6px;
+        margin-bottom: 0px;}
+
+    div.cover p {
+        margin-top: 2px;
+        font-size: 13px; }
+
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;}
+
+    div.section-grise1 {
+        padding-bottom: 40px; }
+
+    h2 {
+        font-size: 30px;}
+
+    img.col-contenu {
+        width: 100%; }
+    div.col-contenu {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20px;}
+    div.col-contenu {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 20px;}
+
+    .col-aero{
+    width:100%;}
+
+    div.frame{
+    padding:0px 0px;
+    margin:0px 0px;
+    box-shadow:none;}
+
+    div.frame img {
+            width: 70px;}
+
+
+/* RD PORTFOLIO - MOBILE */
+    .aero-header-title {
+        font-size: 19px;
+        padding-top: 10px;
+        padding-left: 4px;}
+
+          a.contact-button {
+        padding: 7px 12px;
+        margin-top: 22px;
+        font-size: 12px;}
+
+ a.contact-button-aero {
+        right: 12px;}
+
+   h1.aero {
+        font-size: 40px;
+    }
+
+    h2.aero {
+        font-size: 22px;
+    }
+
+    img.aero {
+        width: 100%;
+    }
+
+    .display-mobile {
+        display: block;
+    }
+
+
+
+
